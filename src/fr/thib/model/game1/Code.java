@@ -105,7 +105,7 @@ public class Code {
 		// If code is different and player still has tries
 		if(  ! codePlayerTry.equals( codeTarget ) && nbTryLeft > 0 ) {
 			
-			game.getResult( ).setText( strDifferentCode );
+				game.getResult( ).setText( strDifferentCode );
 			
 		}
 		
@@ -149,7 +149,12 @@ public class Code {
 		// If player still has tries and code is different from target
 		if(  ! codeComputerTry.equals( codeTarget ) && nbTryLeft > 0 ) {
 			
-			game.getResult( ).setText( strDifferentCode );	
+			if( ! game.isPlayerWin( ) ) {
+				game.getResult( ).setText( strDifferentCode );
+			}
+			else {
+				game.getResult( ).setText( game.getStrEqualsCode() );
+			}
 		}
 		
 		// If player still has tries and code is the same than target

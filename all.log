@@ -1,31 +1,28 @@
-2018-03-02 08:23:25.030 [main] INFO  fr.thib.Main - Start Developer mode
-2018-03-02 08:23:30.960 [AWT-EventQueue-0] INFO  fr.thib.view.game2.Game2 - New instance of G2Duel.
-2018-03-02 08:23:30.967 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - New instance of Combi.
-2018-03-02 08:23:30.967 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - The randomly generated combination is: Green Pink Gray Yellow Black Magenta 
-2018-03-02 08:23:40.739 [AWT-EventQueue-0] INFO  fr.thib.view.game2.Game2 - New instance of G2Duel.
-2018-03-02 08:23:40.739 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - New instance of Combi.
-2018-03-02 08:23:40.739 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - The randomly generated combination is: Yellow Yellow Red Pink White White Orange 
-2018-03-02 08:23:54.924 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 10000000
-2018-03-02 08:23:54.924 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1539207
-2018-03-02 08:23:54.937 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 1818ms
-2018-03-02 08:23:56.901 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1539207
-2018-03-02 08:23:56.902 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 92318
-2018-03-02 08:23:56.903 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 378ms
-2018-03-02 08:23:58.264 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 92318
-2018-03-02 08:23:58.264 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 15906
-2018-03-02 08:23:58.268 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 39ms
-2018-03-02 08:23:59.769 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 15906
-2018-03-02 08:23:59.769 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 457
-2018-03-02 08:23:59.776 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 7ms
-2018-03-02 08:24:01.150 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 457
-2018-03-02 08:24:01.150 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 29
-2018-03-02 08:24:01.156 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 6ms
-2018-03-02 08:24:02.949 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 29
-2018-03-02 08:24:02.949 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 3
-2018-03-02 08:24:02.957 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 8ms
-2018-03-02 08:24:04.592 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 3
-2018-03-02 08:24:04.592 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1
-2018-03-02 08:24:04.604 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 12ms
-2018-03-02 08:24:05.950 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1
-2018-03-02 08:24:05.951 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1
-2018-03-02 08:24:05.951 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 1ms
+2018-03-02 10:15:27.205 [AWT-EventQueue-0] INFO  fr.thib.view.game1.Game1 - New instance of G1Duel.
+2018-03-02 10:15:27.216 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:27.216 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 84
+2018-03-02 10:15:33.543 [AWT-EventQueue-0] INFO  fr.thib.view.game1.Game1 - New instance of G1Challenger.
+2018-03-02 10:15:33.553 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:33.554 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 02
+2018-03-02 10:15:35.311 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:35.311 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 35
+2018-03-02 10:15:35.910 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:35.910 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 35
+2018-03-02 10:15:36.468 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:36.468 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 35
+2018-03-02 10:15:37.468 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:37.484 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 35
+2018-03-02 10:15:42.076 [AWT-EventQueue-0] INFO  fr.thib.view.game1.Game1 - New instance of G1Challenger.
+2018-03-02 10:15:42.078 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:42.079 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 3009
+2018-03-02 10:15:44.241 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:44.241 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 5343
+2018-03-02 10:15:45.021 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:45.021 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 5343
+2018-03-02 10:15:45.246 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:45.246 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 5343
+2018-03-02 10:15:46.828 [AWT-EventQueue-0] INFO  fr.thib.view.game1.Game1 - New instance of G1Defender.
+2018-03-02 10:15:48.449 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:48.449 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 4010
+2018-03-02 10:15:48.451 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 10:15:48.451 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The new code is: 4555
