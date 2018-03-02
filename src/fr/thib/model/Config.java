@@ -8,7 +8,7 @@ import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import fr.thib.exception.TooManySpotsException;
+import fr.thib.exception.TooManyPiecesException;
 
 
 
@@ -54,7 +54,7 @@ public class Config {
 	
 	
 	/**
-	 * Return the boolean value of 'Developer mode" parameter in config.properties
+	 * Returns the boolean value of 'Developer mode" parameter in config.properties
 	 * @return the boolean value of 'Developer mode" parameter in config.properties
 	 */
 	public static boolean getDevModeProp( ) {
@@ -201,14 +201,14 @@ public class Config {
 	/**
 	 * Throws an exception if the number of spot of game2 is bigger than 7
 	 * The selected algorithm can support such a number of spot
-	 * @throws TooManySpotsException
+	 * @throws TooManyPiecesException
 	 */
-	public static void testSetting(  ) throws TooManySpotsException {
+	public static void testSetting(  ) throws TooManyPiecesException {
 		if ( nbPiece > 7 ) {
-			 throw new TooManySpotsException( 
+			 throw new TooManyPiecesException( 
 					 "This difficulty level has been set with too many spots. "
 			 		+ "Please use the file ./ressources/config.properties and "
-			 		+ "set a number of spot lower than 8." );
+			 		+ "set a number of piece lower than 8." );
 			
 		}
 	}
@@ -221,21 +221,17 @@ public class Config {
 		return nbDigit;
 	}
 
-
 	public static int getNbTry( ) {
 		return nbTry;
 	}
-
 
 	public static boolean isDev( ) {
 		return dev;
 	}
 
-
 	public static byte getNbColor( ) {
 		return nbColor;
 	}
-
 
 	public static byte getNbPiece( ) {
 		return nbPiece;
@@ -245,26 +241,21 @@ public class Config {
 	
 	//----------SETTERS----------
 
-
 	public static void setNbDigit( int nbDigit ) {
 		Config.nbDigit = nbDigit;
 	}
-
 
 	public static void setNbTry( int nbTry ) {
 		Config.nbTry = nbTry;
 	}
 
-
 	public static void setDev( boolean dev ) {
 		Config.dev = dev;
 	}
 
-
 	public static void setNbColor( byte nbColor ) {
 		Config.nbColor = nbColor;
 	}
-
 
 	public static void setNbPiece( byte nbPiece ) {
 		Config.nbPiece = nbPiece;

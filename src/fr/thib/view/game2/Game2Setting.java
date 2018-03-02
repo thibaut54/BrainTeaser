@@ -50,7 +50,7 @@ public class Game2Setting extends GameSetting {
 		
 		for ( int i = 0; i < 4; i++ ) {
 			this.getJlabDiff( i ).setText( Config.getColorProp( i ) + " colors, " 
-											+ Config.getPieceProp( i ) + " squares, "
+											+ Config.getPieceProp( i ) + " pieces, "
 											+ Config.getTryG2Prop( i ) + " tries" );
 		}
 		

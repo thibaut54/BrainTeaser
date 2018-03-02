@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
-import fr.thib.exception.TooManySpotsException;
+import fr.thib.exception.TooManyPiecesException;
 import fr.thib.model.Config;
 import fr.thib.model.game2.G2Interface;
 import fr.thib.view.game2.G2Challenger;
@@ -71,7 +71,7 @@ public class G2SetListener implements ActionListener {
 				game2Setting.getMainFrame( ).getPanGame( ).removeAll( );
 				game2Setting.getMainFrame( ).getPanGame( ).add( ( Component ) game2 );
 			}
-			catch ( TooManySpotsException e ) {
+			catch ( TooManyPiecesException e ) {
 				JOptionPane.showMessageDialog( game2Setting , e.getMessage( ) , "Invalid settings" ,
 						JOptionPane.ERROR_MESSAGE );
 			
@@ -155,5 +155,4 @@ public class G2SetListener implements ActionListener {
 			}
 		}
 	}
-
 }
