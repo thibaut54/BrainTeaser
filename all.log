@@ -1,0 +1,37 @@
+2018-03-02 07:19:03.308 [main] INFO  fr.thib.Main - Start Developer mode
+2018-03-02 07:19:06.639 [AWT-EventQueue-0] INFO  fr.thib.view.game2.Game2 - New instance of G2Duel.
+2018-03-02 07:19:06.648 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - New instance of Combi.
+2018-03-02 07:19:06.648 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - The randomly generated combination is: Black Green Red White 
+2018-03-02 07:19:20.110 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1296
+2018-03-02 07:19:20.110 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 81
+2018-03-02 07:19:20.116 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 6ms
+2018-03-02 07:19:42.433 [AWT-EventQueue-0] INFO  fr.thib.view.game2.Game2 - New instance of G2Duel.
+2018-03-02 07:19:42.433 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - New instance of Combi.
+2018-03-02 07:19:42.433 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - The randomly generated combination is: Blue Blue Yellow Green 
+2018-03-02 07:19:46.336 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1296
+2018-03-02 07:19:46.336 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 108
+2018-03-02 07:19:46.336 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 0ms
+2018-03-02 07:19:47.909 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 108
+2018-03-02 07:19:47.909 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 24
+2018-03-02 07:19:47.917 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 0ms
+2018-03-02 07:19:54.491 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 24
+2018-03-02 07:19:54.491 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 2
+2018-03-02 07:19:54.492 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 1ms
+2018-03-02 07:20:05.607 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 2
+2018-03-02 07:20:05.607 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1
+2018-03-02 07:20:05.619 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 12ms
+2018-03-02 07:20:11.463 [AWT-EventQueue-0] INFO  fr.thib.view.game2.Game2 - New instance of G2Duel.
+2018-03-02 07:20:11.463 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - New instance of Combi.
+2018-03-02 07:20:11.463 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - The randomly generated combination is: White Red Red Green 
+2018-03-02 07:20:14.435 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1296
+2018-03-02 07:20:14.435 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 81
+2018-03-02 07:20:14.444 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 9ms
+2018-03-02 07:20:15.931 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 81
+2018-03-02 07:20:15.931 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 11
+2018-03-02 07:20:15.931 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 0ms
+2018-03-02 07:20:18.627 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 11
+2018-03-02 07:20:18.627 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1
+2018-03-02 07:20:18.627 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 0ms
+2018-03-02 07:20:33.724 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions before the algorithm: 1
+2018-03-02 07:20:33.724 [AWT-EventQueue-0] DEBUG fr.thib.model.game2.Combi - Number of solutions after the algorithm: 1
+2018-03-02 07:20:33.726 [AWT-EventQueue-0] INFO  fr.thib.model.game2.Combi - Time to execute 'searchCombi': 2ms

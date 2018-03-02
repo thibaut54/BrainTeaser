@@ -80,8 +80,10 @@ public class G2DuelListener implements ActionListener{
 
 				game.addTryPlayer( );
 					
-				game.getJTextInfo( ).setText( "Dear player, it's your turn to make a guess! "
-						+ "Please validate with the button 'Validate' down there. " );
+				if( ! game.isPlayerWin( ) ) {
+					game.getJTextInfo( ).setText( "Dear player, it's your turn to make a guess! "
+							+ "Please validate with the button 'Validate' down there. " );
+				}
 
 				// each round, tests the equality of the player secret combination 
 				// and the combination tried by the computer
