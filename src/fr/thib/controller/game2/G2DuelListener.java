@@ -45,8 +45,10 @@ public class G2DuelListener implements ActionListener{
 				
 				firstTry = false;
 				
+				// register the secret combination of the player
 				game.setCombiPlayer( new Combi( game.myCombi( ) ) );
 				
+				// generates all possible solutions
 				Combi.genPossible( );
 				
 				game.getBtnValidate( ).setText( "<html>Computer <br>try" );
@@ -68,18 +70,21 @@ public class G2DuelListener implements ActionListener{
 				// ransomly picks one combination among every possible solution
 				game.getCombiPlayer( ).pickCombi( game );
 				
-				
+				// displays the combination randomly chosen
 				game.displayCombi( game.getCombiComputerTry( ) );
 				
-
+				// calculate the score 
 				byte [] score = game.getCombiPlayer( ).testCombi( game.getCombiComputerTry( ) );
 			
+				// displays the score
 				game.displayScore( score );
 				
+				// try to guess the secret combination with Knuth algorithm
 				game.getCombiPlayer( ).searchCombi( game );
 
 				game.addTryPlayer( );
 					
+				// if player didn't win before the computer
 				if( ! game.isPlayerWin( ) ) {
 					game.getJTextInfo( ).setText( "Dear player, it's your turn to make a guess! "
 							+ "Please validate with the button 'Validate' down there. " );
@@ -166,10 +171,13 @@ public class G2DuelListener implements ActionListener{
 			// displays the combination of player on its line
 			game.displayCombiComputer( game.getCombiPlayerTry( ) );
 			
+			// displays the text information to player
 			game.getCombiPlayerTry( ).displayInfo( game , game.getCombiComputer( ) );
 			
+			// compare the combination to the target 
 			game.getCombiPlayerTry( ).testCombi( game.getCombiComputer( ) );
 			
+			// displays the score
 			game.displayScoreComputer( game.getCombiPlayerTry().getScore( )  );
 			
 			game.addTryComputer( );

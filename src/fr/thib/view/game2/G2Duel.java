@@ -74,6 +74,7 @@ public class G2Duel extends Game2 implements G2Interface{
 				+ "face the computer. Please first chose your secret combination "
 				+ "and try to find out the one of the computer." );
 		
+		// creates a new grid 
 		grid2 = new JPanel( new GridLayout( Config.getNbTry( ) , 1 ) );
 		gridMain = new JPanel( new GridLayout( 1 , 2 ) );
 		
@@ -84,14 +85,15 @@ public class G2Duel extends Game2 implements G2Interface{
 	
 		mainFrame.setSize( 1200 , 600 );
 		
+		// creates the selector for the player
 		selector2 = new SelectorG2[ Config.getNbPiece( ) ];
-		
 		
 		for ( int i = 0; i < selector2.length; i++ ) {
 			selector2[i] = new SelectorG2( );
 			getPanSelect().add( selector2[ i ].getPanMain( ) );
 		}
 		
+		// creates button to player code validation
 		btnValidate2 = new JButton( "Player try" );
 		btnValidate2.setBackground( Color.BLACK );
 		btnValidate2.setForeground( Color.WHITE );
@@ -103,7 +105,7 @@ public class G2Duel extends Game2 implements G2Interface{
 		result2 = new JPanel[ Config.getNbTry( ) ];
 		piece2 = new Piece[ Config.getNbPiece( ) ];
 		
-		// Creates 1 line per available try
+		// creates 1 line per available try
 		for ( int l = 0; l < Config.getNbTry( ); l++ ) {
 			
 			line2[ l ] = new JPanel( );
@@ -114,10 +116,10 @@ public class G2Duel extends Game2 implements G2Interface{
 		}
 		
 		
-		// For each line < l >
+		// for each line < l >
 		for ( int l = 0; l < Config.getNbTry( ); l++ ) {
 			
-			// For each square < s > of the line < l >
+			// for each square < s > of the line < l >
 			for ( int s = 0; s < Config.getNbPiece( ); s++ ) {
 				
 				piece2[ s ] = new Piece( );

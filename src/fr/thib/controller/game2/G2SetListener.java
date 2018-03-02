@@ -109,8 +109,9 @@ public class G2SetListener implements ActionListener {
 		
 			for ( int i = 0; i < game2Setting.getRadBtnDiff( ).length; i++ ) {
 				
-				game2Setting.getJlabDiff( i ).setText( Config.getColorProp( i ) + " colors, "
-					+ Config.getPieceProp( i ) + " squares, " + Config.getTryG2Prop( i ) + " tries" );
+				game2Setting.getJlabDiff( i ).setText( Config.getPieceProp( i ) + " pieces, " 
+														+ Config.getColorProp( i ) + " colors, "
+														+  Config.getTryG2Prop( i ) + " tries" );
 			}
 		}
 
@@ -118,8 +119,9 @@ public class G2SetListener implements ActionListener {
 			
 			for ( int i = 0 , j = 3; i < game2Setting.getRadBtnDiff( ).length; i++ , j-- ) {
 			
-				game2Setting.getJlabDiff( i ).setText( Config.getColorProp( j ) + " colors, "
-					+ Config.getPieceProp( j ) + " squares, " + Config.getTryG2Prop( j ) + " tries" );
+				game2Setting.getJlabDiff( i ).setText( Config.getPieceProp( j ) + " pieces, " 
+														+ Config.getColorProp( j ) + " colors, "
+														+  Config.getTryG2Prop( j ) + " tries" );
 			}
 		}
 	}
