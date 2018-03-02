@@ -12,7 +12,7 @@ import fr.thib.exception.TooManyPiecesException;
 
 
 
-public class Config {
+public abstract class Config {
 
 	
 	
