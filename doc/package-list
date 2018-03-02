@@ -1,0 +1,11 @@
+fr.thib
+fr.thib.controller
+fr.thib.controller.game1
+fr.thib.controller.game2
+fr.thib.exception
+fr.thib.model
+fr.thib.model.game1
+fr.thib.model.game2
+fr.thib.view
+fr.thib.view.game1
+fr.thib.view.game2

@@ -1,0 +1,16 @@
+2018-03-02 04:24:25.235 [main] INFO  fr.thib.Main - Start Developer mode
+2018-03-02 04:24:30.007 [AWT-EventQueue-0] INFO  fr.thib.view.game1.Game1 - New instance of G1Duel.
+2018-03-02 04:24:30.008 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:30.008 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 320
+2018-03-02 04:24:31.880 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:31.880 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 187
+2018-03-02 04:24:31.881 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:31.881 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 072
+2018-03-02 04:24:35.121 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:35.121 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 514
+2018-03-02 04:24:37.246 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:37.247 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 544
+2018-03-02 04:24:40.051 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:40.052 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 514
+2018-03-02 04:24:41.510 [AWT-EventQueue-0] INFO  fr.thib.model.game1.Code - New instance of Code.
+2018-03-02 04:24:41.510 [AWT-EventQueue-0] DEBUG fr.thib.model.game1.Code - The randomly generated code is: 514
