@@ -18,6 +18,7 @@ import fr.thib.model.game1.G1Interface;
 public class G1Duel extends Game1 implements G1Interface{
 
 	private static final long serialVersionUID = -8917892106054719366L;
+	
 
 	// the selectors for player and for computer
 	private SelectorG1 [ ] selectorP1 , selectorP2;
