@@ -37,7 +37,7 @@ public class Combi {
 	 * that represents colors
 	 * 
 	 * @see Combi#genRandom
-	 * @see Config#getNbSpot
+	 * @see Config#getNbPiece
 	 * @see Config#getNbColor
 	 */
 	public Combi( ) {
@@ -205,7 +205,6 @@ public class Combi {
 	 * @param game
 	 * 			The JPanel where the game is displayed
 	 *
-	 * @see Config#getNbSpot
 	 * @see Combi#getCombi
 	 */
 	public void pickCombi( G2Interface game ) {
