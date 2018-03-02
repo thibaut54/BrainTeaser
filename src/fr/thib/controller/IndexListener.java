@@ -54,9 +54,10 @@ public class IndexListener implements ActionListener {
 			
 			nav.getMainFrame().setGame1Go( true );										
 			
-			//Initiates screen title with the image of game
+			// initiates screen title with the image of game
 			title = new GameTitle( new ImageIcon( "./ressources/imgTitleG1_500_600.jpg" ) );
 			
+			// sets the JFrame title in order to indicate if Developer Mode is on
 			if( ! Config.isDev( ) ) {
 				parent.setTitle( index.getTITLEGAME1() );
 			}
@@ -70,8 +71,10 @@ public class IndexListener implements ActionListener {
 			
 			nav.getMainFrame().setGame1Go( false );
 			
+			// initiates screen title with the image of game
 			title = new GameTitle( new ImageIcon( "./ressources/imgTitleG2_500_600.jpg" ) );
 			
+			// sets the JFrame title in order to indicate if Developer Mode is on
 			if( ! Config.isDev( ) ) {
 				parent.setTitle( index.getTITLEGAME2() );
 			}
