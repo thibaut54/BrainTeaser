@@ -21,6 +21,7 @@ Getting Started
 		Or, edit the config.properties file, located in ..\BrainTeaser\ressources
 		and replace "Developer\ mode=false" by the following "Developer\ mode=true"
 
+	It is possible to custom each difficulty level by editing ..\BrainTeaser\ressources\config.properties
 
 
 Prerequisites

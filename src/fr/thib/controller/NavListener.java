@@ -19,7 +19,7 @@ public class NavListener implements ActionListener {
 	private MainFrame parent;
 
 
-	// ----------CONSTRUCTOR----------
+	//----------CONSTRUCTOR----------
 	
 	public NavListener( Nav nav , MainFrame parent ) {
 
@@ -28,6 +28,8 @@ public class NavListener implements ActionListener {
 	}
 
 
+	//----------ACTIONS----------
+	
 	@Override
 	public void actionPerformed( ActionEvent ev ) {
 
