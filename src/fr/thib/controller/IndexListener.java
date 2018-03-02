@@ -40,6 +40,7 @@ public class IndexListener implements ActionListener {
 	@Override
 	public void actionPerformed( ActionEvent ev ) {
 
+		// instanciates and displays the menu of the game
 		Nav nav = new Nav( parent );
 		
 		parent.getContentPane().removeAll();

@@ -38,19 +38,20 @@ public class NavListener implements ActionListener {
 			
 			// If click on Game 1 in the index
 			if ( parent.isGame1Go( ) ) {
+				
 				Game1Setting gameSet = new Game1Setting( parent );
 				
-				// doublon
 				parent.getPanGame( ).add( gameSet , BorderLayout.CENTER );
-				parent.getContentPane( ).add( parent.getPanGame( ) , BorderLayout.CENTER );
 			}
 
 			// If click on Game 2 in the index
 			else if ( !parent.isGame1Go( ) ) {
+				
 				Game2Setting gameSet = new Game2Setting( parent );
+				
 				parent.getPanGame( ).add( gameSet , BorderLayout.CENTER );
-				parent.getContentPane( ).add( parent.getPanGame( ) , BorderLayout.CENTER );
 			}
+			parent.getContentPane( ).add( parent.getPanGame( ) , BorderLayout.CENTER );
 		}
 
 		// If click on Rules
