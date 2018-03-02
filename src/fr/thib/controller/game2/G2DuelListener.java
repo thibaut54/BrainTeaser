@@ -113,8 +113,6 @@ public class G2DuelListener implements ActionListener{
 				else if( ! game.getCombiPlayer( ).equals( game.getCombiComputerTry( ) ) 
 						&& nbTryComputer > Config.getNbTry( ) - 2 ) {
 					
-					System.out.println( "loop" );
-					
 					// If the player didn't win just before the computer round, it's a draw
 					if( ! game.isPlayerWin( ) ) {
 						
@@ -177,6 +175,7 @@ public class G2DuelListener implements ActionListener{
 			// actions on buttons
 			// just after the player round, disable his buttons
 			game.getBtnValidate2( ).setEnabled( false );
+
 			
 			game.activSelector( game.getSelector2( ) , false );
 			

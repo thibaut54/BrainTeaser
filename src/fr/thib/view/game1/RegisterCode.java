@@ -32,7 +32,7 @@ public class RegisterCode extends JDialog {
 	private JButton btnStart;
 	
 	private Border border;
-	private String strBord = "ENTER YOUR CODE";
+	private String strBord = "ENTER YOUR SECURITY CODE";
 	private boolean codeRegistered = false;
 
 

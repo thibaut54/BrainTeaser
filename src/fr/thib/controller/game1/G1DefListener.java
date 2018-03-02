@@ -47,7 +47,7 @@ public class G1DefListener implements ActionListener {
 				game.getSolution( ).setText( "Congrats, you said the dev word! The code is " + game.getCodePlayer( ).toString( )  ); //ICI
 			}
 			
-			game.getBtnValidate( ).setText( "Adverse hacker attack" );
+			game.getBtnValidate( ).setText( "ADVERSE HACKER ATTACK" );
 			
 			// Disable selector so that player cannot change code during a game
 			game.activSelector( false );

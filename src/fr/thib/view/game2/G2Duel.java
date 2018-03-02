@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.GridLayout;
 
 import javax.swing.BorderFactory;
@@ -91,7 +92,10 @@ public class G2Duel extends Game2 implements G2Interface{
 			getPanSelect().add( selector2[ i ].getPanMain( ) );
 		}
 		
-		btnValidate2 = new JButton( "Validate" );
+		btnValidate2 = new JButton( "Player try" );
+		btnValidate2.setBackground( Color.BLACK );
+		btnValidate2.setForeground( Color.WHITE );
+		btnValidate2.setFont( new Font( "Berlin Sans FB", Font.BOLD, 14 ) );
 		getPanSelect().add( btnValidate2 );
 
 		

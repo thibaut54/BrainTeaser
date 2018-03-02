@@ -75,7 +75,6 @@ public class G1Duel extends Game1 implements G1Interface{
 	//----------CONSTRUCTOR----------
 
 	
-	
 	/**
 	 * Creates and displays the game 2 in duel mode
 	 */
@@ -130,8 +129,10 @@ public class G1Duel extends Game1 implements G1Interface{
 
 		initIndicator( panMainSelect2 , panIndic2 , indicatorField2 );
 
-		btnPlayer = new JButton( "Hack" );
-		btnComputer = new JButton( "Adverse hacker attack" );
+		btnPlayer = new JButton( "HACK" );
+		btnPlayer.setFont( new Font( "Berlin Sans FB", Font.BOLD, 14 ) );
+		btnComputer = new JButton( "ADVERSE HACKER ATTACK" );
+		btnComputer.setFont( new Font( "Berlin Sans FB", Font.BOLD, 14 ) );
 
 		btnPlayer.addActionListener( new G1DuelListener( this ) );
 		btnComputer.addActionListener( new G1DuelListener( this ) );

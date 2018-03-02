@@ -1,6 +1,7 @@
 package fr.thib.controller.game2;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -34,6 +35,8 @@ public class G2DefListener implements ActionListener {
 			if ( firstTry ) {
 				
 				game.getBtnValidate( ).setText( "<html>COMPUTER <br>TRY" );
+				game.getBtnValidate( ).setFont( new Font( "Berlin Sans FB", Font.BOLD, 12 ) );
+
 				
 				game.setCombiPlayer(  new Combi( game.myCombi( ) ) );
 				

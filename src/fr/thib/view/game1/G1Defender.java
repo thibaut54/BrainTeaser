@@ -44,7 +44,7 @@ public class G1Defender extends Game1 implements G1Interface{
 		
 		super(  );
 		
-		getBtnValidate( ).setText( "Register code" );
+		getBtnValidate( ).setText( "REGISTER SECURITY CODE" );
 		
 		logger.info( "New instance of " + getClass( ).getSimpleName( ) + "." );
 		

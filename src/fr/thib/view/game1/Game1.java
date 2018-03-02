@@ -84,7 +84,8 @@ public abstract class Game1 extends JPanel {
 
 		add( panResult );
 
-		btnValidate = new JButton( "Hack" );
+		btnValidate = new JButton( "HACK" );
+		btnValidate.setFont( new Font( "Berlin Sans FB", Font.BOLD, 20 ) );
 		add( btnValidate );
 	}
 
