@@ -49,9 +49,9 @@ public class Game2Setting extends GameSetting {
 		this.parent = parent;
 		
 		for ( int i = 0; i < 4; i++ ) {
-			this.getJlabDiff( i ).setText( Config.getColorProp( i ) + " colors, " 
-											+ Config.getPieceProp( i ) + " pieces, "
-											+ Config.getTryG2Prop( i ) + " tries" );
+			this.getJlabDiff( i ).setText( Config.getPieceProp( i ) + " pieces, "
+											+ Config.getColorProp( i ) + " colors, " 
+											+ Config.getTryG2Prop( i ) + " tries." );
 		}
 		
 		for ( int i = 0; i < getRadBtnMode().length; i++ ) {
