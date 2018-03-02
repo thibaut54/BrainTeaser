@@ -260,11 +260,11 @@ public class Code {
 
 			}
 			else if ( this.getNumber( i ) > game.getCodeComputerTry().getNumber( i ) ) {
-				game.getIndicatorField2( )[ i ].setText( "-" );
+				game.getIndicatorField2( )[ i ].setText( "+" );
 
 			}
 			else {
-				game.getIndicatorField2( )[ i ].setText( "+" );
+				game.getIndicatorField2( )[ i ].setText( "-" );
 			}
 		}
 	}
