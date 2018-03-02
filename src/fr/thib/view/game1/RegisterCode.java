@@ -213,7 +213,7 @@ public class RegisterCode extends JDialog {
 				game.setCodePlayer( new Code( intCode ) );
 				
 				//Store a random code in game game1.codeComputer
-				game.setCodeComputer( new Code( ) );
+//				game.setCodeComputer( new Code( ) );
 				
 				// Chelou à vérifier
 				if ( Config.isDev( ) ) {

@@ -42,6 +42,7 @@ public class Code {
 		logger.info( "New instance of " + getClass( ).getSimpleName( ) + "." );
 		logger.debug( "The randomly generated code is: " + this.toString( ) );
 	}
+	
 
 	/**
 	 * Creates a code with a defined int[ ] as attribute
@@ -53,7 +54,7 @@ public class Code {
 		this.number = number;
 		
 		logger.info( "New instance of " + getClass( ).getSimpleName( ) + "." );
-		logger.debug( "The randomly generated code is: " + this.toString( ) );
+		logger.debug( "The new code is: " + this.toString( ) );
 	}
 
 	
@@ -243,29 +244,27 @@ public class Code {
 	 * than the target code
 	 * 
 	 * @param game
-	 * 			The JPanel where the game is displayed
+	 * 			the JPanel where the game is displayed
 	 * 
-	 * @see G1Duel#getCodeComputer
-	 * @see G1Duel#getIndicatorField2
+	 * @see G1Challenger#getCodeComputer
+	 * @see G1Challenger#getIndicatorField
 	 * @see Code#getNumber
 	 * @see Config#getNbDigit
 	 */
-	public void testNumbersDuel( G1Duel game ) {
-
-		Code codeComputer = game.getCodeComputerTry();
+	public void testNumbersDuel( G1Interface game ) {
 		
 		for ( int i = 0; i < Config.getNbDigit( ); i++ ) {
-			if ( this.getNumber( i ) == codeComputer.getNumber( i ) ) {
-				game.getIndicatorField2( )[ i ].setText( "=" );
-				game.getIndicatorField2( )[ i ].setForeground( Color.RED );
+			if ( this.getNumber( i ) == game.getCodeComputer().getNumber( i ) ) {
+				game.getIndicatorField( )[ i ].setText( "=" );
+				game.getIndicatorField( )[ i ].setForeground( Color.GREEN );
 
 			}
-			else if ( this.getNumber( i ) > codeComputer.getNumber( i ) ) {
-				game.getIndicatorField2( )[ i ].setText( "+" );
+			else if ( this.getNumber( i ) > game.getCodeComputer().getNumber( i ) ) {
+				game.getIndicatorField( )[ i ].setText( "-" );
 
 			}
 			else {
-				game.getIndicatorField2( )[ i ].setText( "-" );
+				game.getIndicatorField( )[ i ].setText( "+" );
 			}
 		}
 	}
