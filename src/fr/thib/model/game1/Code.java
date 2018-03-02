@@ -254,17 +254,17 @@ public class Code {
 	public void testNumbersDuel( G1Interface game ) {
 		
 		for ( int i = 0; i < Config.getNbDigit( ); i++ ) {
-			if ( this.getNumber( i ) == game.getCodeComputer().getNumber( i ) ) {
-				game.getIndicatorField( )[ i ].setText( "=" );
-				game.getIndicatorField( )[ i ].setForeground( Color.GREEN );
+			if ( this.getNumber( i ) == game.getCodeComputerTry().getNumber( i ) ) {
+				game.getIndicatorField2( )[ i ].setText( "=" );
+				game.getIndicatorField2( )[ i ].setForeground( Color.GREEN );
 
 			}
-			else if ( this.getNumber( i ) > game.getCodeComputer().getNumber( i ) ) {
-				game.getIndicatorField( )[ i ].setText( "-" );
+			else if ( this.getNumber( i ) > game.getCodeComputerTry().getNumber( i ) ) {
+				game.getIndicatorField2( )[ i ].setText( "-" );
 
 			}
 			else {
-				game.getIndicatorField( )[ i ].setText( "+" );
+				game.getIndicatorField2( )[ i ].setText( "+" );
 			}
 		}
 	}

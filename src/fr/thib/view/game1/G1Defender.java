@@ -141,5 +141,13 @@ public class G1Defender extends Game1 implements G1Interface{
 	@Override
 	public void setCodeComputer( Code codeComputer ) {
 		this.codeComputer = codeComputer;
+	}
+
+
+
+	@Override
+	public JLabel [ ] getIndicatorField2( ) {
+
+		return null;
 	}	
 }

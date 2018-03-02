@@ -112,4 +112,9 @@ public class G1Challenger extends Game1 implements G1Interface{
 	public void setCodeComputer( Code code ) {
 
 	}
+
+	@Override
+	public JLabel [ ] getIndicatorField2( ) {
+		return null;
+	}
 }

@@ -26,4 +26,5 @@ public interface G1Interface {
 	public void setCodeComputer( Code code );
 	public int getNbTryPlayer( );
 	public void activSelector( boolean b );
+	public JLabel [ ] getIndicatorField2( );
 }
